@@ -1,7 +1,0 @@
-<IfModule mod_rewrite.c>
-
-RewriteEngine on
-RewriteCond %{HTTP_HOST} ^www.porkstand.party [NC]
-RewriteRule ^(.*)$ http://porkstand.party/$1 [L,R=301]
-
-</IfModule>
